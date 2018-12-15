@@ -1,0 +1,13 @@
+.bautoCompleteList {
+	list-style:none; 
+	padding:0px; 
+	margin:0px;
+	position:absolute;
+	z-index:1; 
+	visibility:hidden;
+
+	border:1px inset gray; 
+	background:white;
+}
+.bautoCompleteItem { margin:0px; cursor:pointer;  }  
+.bautoCompleteItem:hover { background: ghostwhite; }
