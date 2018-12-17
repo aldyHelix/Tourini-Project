@@ -788,6 +788,17 @@ section
 	background-position: center center;
 	opacity:0.5;
 }
+
+#home_video_background
+{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	opacity:0.5;
+}
+
 .home_slider_content
 {
 	position: absolute;
@@ -1505,6 +1516,7 @@ section
 	font-weight: 400;
 	color: #929191;
 	margin-top: 16px;
+	height: 30%;
 }
 .offers_icons
 {
@@ -1572,13 +1584,13 @@ section
 }
 .test_item
 {
-	padding-top: 36px;
+	padding-top: 10px;
 }
 .test_icon
 {
 	position: absolute;
-	top: 0px;
-	left: 41px;
+	top: 25px;
+	left: 20px;
 	width: 72px;
 	height: 72px;
 	background: #fa9e1b;
@@ -1603,7 +1615,7 @@ section
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	height: 44.1%;
+	height: 55%;
 	background: rgba(49, 18, 75, 0.8);
 }
 .test_content
@@ -1649,7 +1661,7 @@ section
 }
 .test_quote_text
 {
-	font-weight: 500;
+	font-weight: 425;
 	color: #FFFFFF;
 	margin-top: 11px;
 }
@@ -2212,4 +2224,23 @@ section
 
 .bautoCompleteItem:hover { 
   background: ghostwhite; 
+}
+
+.zoom{
+	padding: 50px;
+	transition: transform .2s;
+	margin: 0 auto;
+}
+
+.zoom-item{
+	transition: transform .5s;
+	margin: 0 auto;
+}
+
+.zoom:hover{
+	transform: scale(1.25);
+}
+
+.zoom-item:hover{
+	transform: scale(1.1);
 }
